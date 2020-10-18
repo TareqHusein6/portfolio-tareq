@@ -6,4 +6,4 @@ class Project(models.Model):
     title = models.CharField(max_length=100)
     disc = models.CharField(max_length=250)
     image = models.ImageField('portfolio/images/')#uses pillow module
-    url = models.URLField(blank=True) #if blank is true then it means that URLfield can be empty in the database(default is false)
+    url = models.URLField(blank=True) #if blank=true then it means that URLfield can be empty in the database(default is false)
