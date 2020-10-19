@@ -2,18 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dce2f7b-c7d6-40be-8623-133c1568caff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/passwordIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/passwordIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Tareq's_photo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passwordIcon.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/personal_portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,12 +50,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio/images" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\personal_portfolio-project\media" />
+      <recent name="D:\personal_portfolio-project\portfolio\templates\portfolio" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\personal_portfolio-project\portfolio\images" />
     </key>

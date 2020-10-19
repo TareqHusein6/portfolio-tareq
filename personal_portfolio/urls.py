@@ -20,9 +20,12 @@ from django.urls import path
 from django.conf.urls.static import static
 #get information from our settings file
 from django.conf import settings
+#get views from portfolio
+from portfolio import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('home/', views.home, name="home")
 ]
 
 #add static url for media
