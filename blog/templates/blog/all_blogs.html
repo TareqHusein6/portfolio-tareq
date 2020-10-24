@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Blogs</title>
+</head>
+<body>
+    <h1>Blog</h1>
+  <div id="allposts" style="margin-top:30px">
+                <!-- whenever you are going to use programming in html then use % , other than that use
+                2 brackets {{ it's a template django language-->
+                {% for post in posts %}
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h2 class="card-title">{{ post.title }}</h2>
+                    <p class="card-text" style="color:light-grey">{{ post.date }}</p>
+                    <p class="card-text">{{ post.post }}</p>
+                  </div>
+                </div>
+                {% endfor %}
+  </div>
+</body>
+</html>
