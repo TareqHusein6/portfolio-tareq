@@ -8,7 +8,9 @@
         <title>Home page</title>
     </head>
     <body>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        {% load static %} <!--used to load statics-->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <a class="navbar-brand" href="#">Navbar</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -17,21 +19,23 @@
               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="{% url 'home' %}">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="{% url 'all_blogs' %}">Blog</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="{% static 'portfolio/Resume.pdf' %}">Resume</a>
+                  </li>
                 </ul>
-
               </div>
-            </nav>
-            <h1 style="color:navy;text-align:center">Tareq Husein's Portfolio - Junior Developer</h1>
+        </nav>
 
-            <img src="/media/Tareq's_photo.jpeg" class="rounded mx-auto d-block" alt="Tareq's photo" style="width:400px;height:600px">
+            <h1 style="color:navy;text-align:center">Tareq Husein's Portfolio - Junior Developer</h1>
+            <img src="{% static 'portfolio/Tareq_photo.jpeg' %}" class="rounded mx-auto d-block" alt="Tareq's photo" style="width:400px;height:600px">
             <h2 style="color:">Projects</h2>
             <div id="allprojects" style="margin-top:30px">
                 <!-- whenever you are going to use programming in html then use % , other than that use
