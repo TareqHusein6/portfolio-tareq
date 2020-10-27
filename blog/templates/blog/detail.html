@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>blog detail</title>
-</head>
-<body>
-<h2>{{ post.title }}</h2>
-<p>{{ post.date }}</p>
-<p>{{ post.post }}</p>
-</body>
-</html>
+<!-- used for using a base template for html -->
+{% extends 'portfolio/base.html' %}
+{% block content %}
+{% load static %} <!--used to load statics-->
+    <h1>Detailed blog</h1>
+    <div class="card" style="margin-top:30px;">
+        <div class="card-body">
+
+                <h3 class="card-title">{{ post.title }}</h3>
+            <!-- using |date will let you choose the date format you want -->
+            <p class="card-text" style="color:light-grey">{{ post.date|date:'d/M/Y' }}</p>
+            <p class="card-text" style="font-weight:bold" >{{ post.post }}</p>
+        </div>
+    </div>
+{% endblock %}
