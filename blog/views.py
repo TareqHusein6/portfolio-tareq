@@ -3,8 +3,9 @@ from blog.models import Post
 
 
 def all_blogs(request):
-    posts = Post.objects.order_by('-date')[:5]  # order by date newest first, using [:5] means last 5
-    return render(request, "blog/all_blogs.html", {'posts': posts})
+    posts = Post.objects.order_by('-date')#[:5]   order by date newest first, using [:5] means last 5
+    posts_count = Post.objects.count
+    return render(request, "blog/all_blogs.html", {'posts': posts, 'posts_count': posts_count})
 
 
 def detail(request, post_id):
