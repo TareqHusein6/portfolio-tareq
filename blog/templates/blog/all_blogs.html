@@ -2,7 +2,7 @@
 {% extends 'portfolio/base.html' %}
 {% block content %}
 {% load static %} <!--used to load statics-->
-<main >
+<main>
     <h1>Blog</h1>
     <!--using pluralize will put s when the count is 0 or more than 1 and will remove the s when count=1 -->
     <h2 style="margin-top:20px">Tareq has written {{posts_count}} blog{{ posts_count|pluralize }}</h2>
@@ -23,6 +23,6 @@
                   </div>
                 </div>
                 {% endfor %}
-  </div>
+    </div>
 </main>
 {% endblock %}

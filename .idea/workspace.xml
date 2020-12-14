@@ -4,10 +4,9 @@
     <list default="true" id="0dce2f7b-c7d6-40be-8623-133c1568caff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about/templates/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/templates/about/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/about/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/all_blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/all_blogs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,5 +97,9 @@
     <state x="2576" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603628381271" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.80.1920.1040@0.0.1920.1040" timestamp="1603110407760" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606064555587" />
+    <state x="2543" y="173" width="672" height="678" key="search.everywhere.popup" timestamp="1607959916409">
+      <screen x="1920" y="-52" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="173" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-52.1920.1040@1920.-52.1920.1040" timestamp="1607959916409" />
   </component>
 </project>

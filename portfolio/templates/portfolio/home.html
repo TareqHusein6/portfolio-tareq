@@ -2,6 +2,7 @@
 {% extends 'portfolio/base.html' %}
 {% block content %}
 {% load static %} <!--used to load statics-->
+<main>
             <h1>Tareq Husein</h1>
             <img src="{% static 'portfolio/Tareq_photo.jpeg' %}" class="rounded mx-auto d-block" alt="Tareq's photo" style="width:400px;height:600px;margin-top:50px">
             <h1>Junior Django Developer</h1>
@@ -24,5 +25,5 @@
                 </div>
                 {% endfor %}
             </div>
-
+</main>
 {% endblock %}
