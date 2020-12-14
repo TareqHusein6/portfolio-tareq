@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dce2f7b-c7d6-40be-8623-133c1568caff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/about/templates/about/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/templates/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/templates/about/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/about/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personal_portfolio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +89,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.-52.1920.1040@0.0.1920.1040" timestamp="1607369181010" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1607369140775">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2576" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1607954648848">
+      <screen x="1920" y="-52" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/-1920.52.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603895428495" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-52.1920.1040@0.0.1920.1040" timestamp="1607369140775" />
+    <state x="2576" y="292" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-52.1920.1040@1920.-52.1920.1040" timestamp="1607954648848" />
     <state x="2576" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603628381271" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.80.1920.1040@0.0.1920.1040" timestamp="1603110407760" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606064555587" />

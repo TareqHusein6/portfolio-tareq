@@ -23,6 +23,7 @@ from django.conf import settings
 #get views from portfolio
 from portfolio import views
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name="home"),
