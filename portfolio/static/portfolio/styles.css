@@ -1,6 +1,15 @@
+html{
+margin:0;
+padding:0;
+}
+body{
+margin:0;
+padding:0;
+}
 h1{
-color:navy;
-width:400px;
+font-family: 'Montserrat', sans-serif;
+color:black;
+width:100%;
 margin-left:auto;
 margin-right:auto;
 text-align:center;
@@ -13,7 +22,6 @@ margin-right:auto;
 text-align:center;
 }
 h3{
-color:navy;
 }
 .about_tareq{
 width:600px;
@@ -22,5 +30,22 @@ margin-right:auto;
 text-align:center;
 }
 p{
-
+font-family: 'Open Sans', sans-serif;
+color:
 }
+main{
+width:100%
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
