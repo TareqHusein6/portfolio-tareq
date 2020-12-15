@@ -2,11 +2,16 @@
 {% extends 'portfolio/base.html' %}
 {% block content %}
 {% load static %} <!--used to load statics-->
-<main>
-            <h1>Tareq Husein</h1>
-            <img src="{% static 'portfolio/Tareq_photo.jpeg' %}" class="rounded mx-auto d-block" alt="Tareq's photo" style="width:400px;height:600px;margin-top:50px">
-            <h1>Junior Django Developer</h1>
-            <h3>Projects</h3>
+<main style="width:100%;">
+    <div class="container">
+         <img src="{% static 'portfolio/tareq.jpeg' %}" class="img-fluid" alt="Tareq's photo">
+            <!--
+            <img src="{% static 'portfolio/tareq.jpeg' %}" class="rounded mx-auto d-block" alt="Tareq's photo" style="width:400px;height:600px;margin-top:50px">
+            -->
+            <h1 class="centered">Tareq Husein - Junior Django Developer</h1>
+    </div>
+    <div style="width:100%; margin-left:30px; margin-right:30px;">
+            <h3 style="margin-top:50px">Projects</h3>
             <div id="allprojects" style="margin-top:30px">
                 <!-- whenever you are going to use programming in html then use % , other than that use
                 2 brackets {{ it's a template django language-->
@@ -25,5 +30,6 @@
                 </div>
                 {% endfor %}
             </div>
+    </div>
 </main>
 {% endblock %}
