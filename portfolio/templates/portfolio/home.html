@@ -2,7 +2,7 @@
 {% extends 'portfolio/base.html' %}
 {% block content %}
 {% load static %} <!--used to load statics-->
-<main style="width:100%;">
+<main style="width:100%;margin-top:100px;">
     <div class="container">
          <img src="{% static 'portfolio/tareq.jpeg' %}" class="img-fluid" alt="Tareq's photo">
             <!--
@@ -10,23 +10,25 @@
             -->
             <h1 class="centered">Tareq Husein - Junior Django Developer</h1>
     </div>
-    <div style="width:100%; margin-left:30px; margin-right:30px;">
+    <div style="width:100%; margin-left:30px; margin-right:30px; margin-bottom:30px">
             <h3 style="margin-top:50px">Projects</h3>
-            <div id="allprojects" style="margin-top:30px">
+            <div id="allprojects" class="row row-cols-2 row-cols-md-5 g-4" style="margin-top:30px">
                 <!-- whenever you are going to use programming in html then use % , other than that use
                 2 brackets {{ it's a template django language-->
                 {% for project in projects %}
-                <div class="card" style="width: 18rem;">
-                  <img src="{{ project.image.url }}" class="card-img-top" alt="{{ project.image.name }}">
-                  <div class="card-body">
-                    <h5 class="card-title">{{ project.title }}</h5>
-                    <p class="card-text">{{ project.disc }}</p>
-                  </div>
-                  <div class="card-body">
-                    {% if project.url %}
-                    <a href="{{ project.url }}" class="card-link" target="_blank">Link to project</a>
-                    {% endif %}
-                  </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                      <img src="{{ project.image.url }}" class="card-img-top" alt="{{ project.image.name }}">
+                      <div class="card-body">
+                        <h5 class="card-title">{{ project.title }}</h5>
+                        <p class="card-text">{{ project.disc }}</p>
+                      </div>
+                      <div class="card-body">
+                        {% if project.url %}
+                        <a href="{{ project.url }}" class="card-link" target="_blank">Link to project</a>
+                        {% endif %}
+                      </div>
+                    </div>
                 </div>
                 {% endfor %}
             </div>
