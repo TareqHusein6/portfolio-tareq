@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dce2f7b-c7d6-40be-8623-133c1568caff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/portfolio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/portfolioicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/static/portfolio/GitHub-Mark-120px-plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/static/portfolio/GitHub-Mark-64px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/static/portfolio/GitHub-Mark-Light-64px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/static/portfolio/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/static/portfolio/linkedIn.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,15 +45,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Fathiya\Desktop\tareq-portfolio-project\portfolio-tareq\portfolio\static\portfolio" />
-      <recent name="D:\personal_portfolio-project\portfolio\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Fathiya\Desktop\tareq-portfolio-project\portfolio-tareq\portfolio\static\portfolio" />
       <recent name="C:\Users\Fathiya\Desktop\tareq-portfolio-project\portfolio-tareq\blog\templates\blog" />
       <recent name="D:\personal_portfolio-project\media" />
       <recent name="D:\personal_portfolio-project\portfolio\templates\portfolio" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fathiya\Desktop\tareq-portfolio-project\portfolio-tareq\portfolio\static\portfolio" />
+      <recent name="D:\personal_portfolio-project\portfolio\images" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -95,10 +84,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.-52.1920.1040@0.0.1920.1040" timestamp="1607369181010" />
-    <state x="2576" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1608644402292">
-      <screen x="1920" y="-52" width="1920" height="1040" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1609150752291">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/-1920.52.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603895428495" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.52.1920.1040@0.0.1920.1040" timestamp="1609150752291" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-52.1920.1040@0.0.1920.1040" timestamp="1607369140775" />
     <state x="2576" y="292" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-52.1920.1040@1920.-52.1920.1040" timestamp="1608644402292" />
     <state x="2576" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603628381271" />
