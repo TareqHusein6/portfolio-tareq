@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dce2f7b-c7d6-40be-8623-133c1568caff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/personal_portfolio/local_settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/Resume-tareq.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio/static/portfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -87,10 +87,10 @@
     </state>
     <state x="-1181" y="314" key="FileChooserDialogImpl/0.0.1920.1040/-1920.52.1920.1040@-1920.52.1920.1040" timestamp="1609155064912" />
     <state x="739" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.-52.1920.1040@0.0.1920.1040" timestamp="1607369181010" />
-    <state x="-1264" y="396" key="com.intellij.ide.util.TipDialog" timestamp="1609155283647">
-      <screen x="-1920" y="52" width="1920" height="1040" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1610648935423">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/-1920.52.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1603895428495" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/-1920.52.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610648935423" />
     <state x="-1264" y="396" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.52.1920.1040@-1920.52.1920.1040" timestamp="1609155283647" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.52.1920.1040@0.0.1920.1040" timestamp="1609150752291" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.-52.1920.1040@0.0.1920.1040" timestamp="1607369140775" />
